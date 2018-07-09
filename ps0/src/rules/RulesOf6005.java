@@ -38,7 +38,10 @@ public class RulesOf6005 {
         
         // TODO: Fill in this method, then remove the exception
         
-        throw new RuntimeException("implement me!");
+        //throw new RuntimeException("implement me!");
+    	
+    	return writtenByYourself && !availableToOthers && writtenAsCourseWork && 
+    			citingYourSource && implementationRequired;
     }
     
     /**
